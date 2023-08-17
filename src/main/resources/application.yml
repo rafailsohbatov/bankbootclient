@@ -1,0 +1,15 @@
+server:
+  port: 8084
+  servlet:
+    context-path: /client
+
+api:
+  url: http://localhost:8083/bank/
+  userId: 1
+  token: 1
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
