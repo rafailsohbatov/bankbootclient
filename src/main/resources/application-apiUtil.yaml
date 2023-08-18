@@ -1,0 +1,4 @@
+api:
+  url: http://localhost:8083/bank/
+  userId: 1
+  token: 1

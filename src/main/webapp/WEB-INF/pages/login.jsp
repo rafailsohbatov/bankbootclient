@@ -7,12 +7,13 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
     <title>Title</title>
     <%--    ${pageContext.request.contextPath} -- localhost:8084/client
     Base url goturmek ucun--%>
-    <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/main.css">
+    <link type="text/css" rel="stylesheet" href="/resources/css/main.css" />
 </head>
 <body>
 
